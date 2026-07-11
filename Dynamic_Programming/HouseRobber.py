@@ -1,5 +1,5 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob(self, nums: List[int]) -> int: # type: ignore
         n  = len(nums)
         if n == 0:
             return 0
