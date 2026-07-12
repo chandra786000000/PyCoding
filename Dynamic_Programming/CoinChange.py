@@ -1,5 +1,5 @@
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
+    def coinChange(self, coins: List[int], amount: int) -> int: # type: ignore
         n = len(coins)
         if amount == 0:
             return 0
