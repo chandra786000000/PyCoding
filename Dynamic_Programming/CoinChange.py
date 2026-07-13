@@ -1,5 +1,5 @@
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int: # type: ignore
+    def coinChange(self, coins: List[int], amount: int) -> int: 
         if amount == 0:
             return 0
         dp = [float('inf') for _ in range(amount+1)]

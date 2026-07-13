@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLIS(self, nums: List[int]) -> int: # type: ignore
+    def lengthOfLIS(self, nums: List[int]) -> int: 
         n = len(nums)
         if n<1:
             return 0
